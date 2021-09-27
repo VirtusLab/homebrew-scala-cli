@@ -4,10 +4,10 @@
 # ScalaCli Formula
 class ScalaCli < Formula
   desc "Launcher for ScalaCli"
-  homepage "https://virtuslabrnd.github.io/scala-cli/"
-  url "https://github.com/VirtuslabRnD/scala-cli/releases/download/v0.0.1/scala-cli-x86_64-apple-darwin.gz"
-  version "0.0.1"
-  sha256 "8d7003305eda34abac64e0526e46326bbe85108988d5729010cf05f4e09ee21f"
+  homepage "https://virtuslab.github.io/scala-cli/"
+  url "https://github.com/Virtuslab/scala-cli/releases/download/v0.0.2/scala-cli-x86_64-apple-darwin.gz"
+  version "0.0.2"
+  sha256 "158314c267f6feb5dcb81fa03810596813e7b590c3fd6558aa0a78aef0d1fedd"
   license "Apache-2.0"
   bottle :unneeded
 
