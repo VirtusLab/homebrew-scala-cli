@@ -9,7 +9,6 @@ class ScalaCli < Formula
   version "0.0.7"
   sha256 "ee1915c18efe0a92164b732710baa7a6f44ace768cf854d45dfbe71f78a5db6c"
   license "Apache-2.0"
-  bottle :unneeded
 
   depends_on java: "1.8+" if MacOS.version < :catalina
   depends_on "openjdk" if MacOS.version >= :catalina
