@@ -5,9 +5,9 @@
 class ScalaCli < Formula
   desc "Launcher for ScalaCli"
   homepage "https://virtuslab.github.io/scala-cli/"
-  url "https://github.com/Virtuslab/scala-cli/releases/download/v0.0.9/scala-cli-x86_64-apple-darwin.gz"
-  version "0.0.9"
-  sha256 "d4ac09b9aa6a1a130420cc2b269d8b2a5a5816d97e38ff43c9a32d81ef5979d2"
+  url "https://github.com/Virtuslab/scala-cli/releases/download/v0.1.0/scala-cli-x86_64-apple-darwin.gz"
+  version "0.1.0"
+  sha256 "628330b5a89feeaec7b7c7d645044678fd373e5e4a4c8524f1f1862a17a573af"
   license "Apache-2.0"
 
   depends_on java: "1.8+" if MacOS.version < :catalina
