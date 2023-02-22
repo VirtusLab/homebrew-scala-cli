@@ -10,8 +10,8 @@ class ScalaCli < Formula
     "https://github.com/Virtuslab/scala-cli/releases/download/v0.2.0/scala-cli-x86_64-apple-darwin.gz"
   version "0.2.0"
   sha256 (RUBY_PLATFORM.include? "arm64") ?
-    "f4fd5afab22e70b164e2cc2d9dea0ca7aef975bb9a25ac040c402c65310f381c" :
-    "14818175903e79915fcf139fff17c12f4263dea43f0de72a6b8254bb2e8ef5c6"
+    "657bbb5638ce91b093c7893a71ebeb93c474343231ffba87e344247703bc643b" :
+    "3c707fe1b4a83baf3baac814475a89a51ed7b4b5c09c330953ac68b7e09b8fdc"
   license "Apache-2.0"
 
   def install
